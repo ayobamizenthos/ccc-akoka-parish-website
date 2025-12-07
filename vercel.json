@@ -1,14 +1,9 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist"
-      }
-    }
-  ],
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "installCommand": "npm install",
+  "framework": "vite",
   "routes": [
     {
       "src": "/sw.js",
@@ -51,10 +46,5 @@
         }
       ]
     }
-  ],
-  "functions": {
-    "src/pages/api/**/*.js": {
-      "runtime": "nodejs18.x"
-    }
-  }
+  ]
 }
