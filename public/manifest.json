@@ -1,0 +1,65 @@
+{
+  "name": "Glade Cathedral - The Last Ark of Salvation",
+  "short_name": "Glade Cathedral",
+  "description": "Experience divine worship at Glade Cathedral (The Last Ark of Salvation) - Celestial Church of Christ, Akoka Parish. Join our live services, events, and spiritual community.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf9f6",
+  "theme_color": "#b8860b",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["lifestyle", "social", "religion"],
+  "icons": [
+    {
+      "src": "/ccc-logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/ccc-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Live Service",
+      "short_name": "Live",
+      "description": "Join our live worship service",
+      "url": "/#live-service",
+      "icons": [
+        {
+          "src": "/ccc-logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Sermons",
+      "short_name": "Sermons",
+      "description": "Listen to our latest sermons",
+      "url": "/sermons",
+      "icons": [
+        {
+          "src": "/ccc-logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Events",
+      "short_name": "Events",
+      "description": "View upcoming church events",
+      "url": "/#events",
+      "icons": [
+        {
+          "src": "/ccc-logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}
